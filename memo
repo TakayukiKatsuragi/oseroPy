@@ -1,0 +1,32 @@
+atom
+
+atomを開いたときに出る
+Welcome guide
+からInstall a Packageを選択
+
+japanese-menu
+日本語化対応
+
+Script
+Pythonがatomで実行できる
+(Ctrl+Shift+Bとかで実行)
+※日本語が入っていると上手く行かないようなので、今回は使用を諦めます
+
+autocomplete-paths
+プロジェクト内のファイルパスをオートコンプリートに追加
+
+highlight-selected
+選択したテキストと同じテキストをハイライトする
+
+indent-guide-improved
+インデントをわかりやすく表示
+
+上のタグのパッケージから、インストールしているパッケージと
+適応の有無を切り替えられる
+
+複数プロジェクト
+import XXX
+(.pyは付けない)
+
+git atom
+パッケージ->
