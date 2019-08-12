@@ -61,3 +61,20 @@ class Board:
         #なので、カウントを増やす
         if num>=1:num+=1
         return num
+
+    #着手可能数の検索
+    def putnum(self,player):
+        num=0
+        for y in range(1,9,1):
+            for x in range(1,9,1):
+                #一個でもひっくり返せるならカウントする
+                if self.reverse(player,y,x,False)>=1:num+=1
+        return num
+
+    #石の数を数える
+    def stonenum(self,player):
+        num=0
+        for y in range(1,9,1):
+            for x in range(1,9,1):
+                if self.stone[y][x]==player:num+=1
+        return num
